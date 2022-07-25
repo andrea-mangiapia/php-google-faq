@@ -6,6 +6,7 @@
 }
 body {
     font-family: Roboto, Arial, sans-serif;
+    color: #3c4043;
 }
 
 img {
@@ -40,9 +41,6 @@ header a {
 }
 
 /* main menu */
-nav {
-    
-}
 header ul {
     display: flex;
 }
@@ -56,4 +54,22 @@ header li {
     padding-bottom: 10px;
     border-bottom: 3px solid #3367d6;
 
+}
+
+/* MAIN */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+.faq h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    padding-top: 64px;
+}
+.faq p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
 }
