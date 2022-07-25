@@ -55,7 +55,6 @@ $faq = [
                     Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\'esatte parole chiave che hanno determinato il clic su un annuncio.</p>'
     ]       
 ]; 
-var_dump($faq);
 ?>
 
 <!DOCTYPE html>
@@ -76,7 +75,7 @@ var_dump($faq);
         <div class='container-header'>
             <div class='header-top'>
                 <div>
-                    <img src="img/logo.png" alt="Logo Google">
+                    <a href="https//:www.google.it/"><img src="img/logo.png" alt="Logo Google"></a>
                 </div>
                 <h1><a href="#">Privacy e termini</a></h1>
             </div>
