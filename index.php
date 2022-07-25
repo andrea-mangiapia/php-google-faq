@@ -53,11 +53,43 @@ var_dump($faq);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google FAQ</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        Header
+        <div class='container-header'>
+            <div class='header-top'>
+                <div>
+                    <img src="img/logo.png" alt="Logo Google">
+                </div>
+                <h1><a href="#">Privacy e termini</a></h1>
+            </div>
+            <!-- main menu -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Introduzione</a>
+                    </li>
+                    <li>
+                        <a href="#">Norme sulla privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Termini di servizio</a>
+                    </li>
+                    <li>
+                        <a href="#">Tecnologie</a>
+                    </li>
+                    <li class='link-active'>
+                        <a href="#">Domande frequenti</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        
     </header>
     <main>
         Main
